@@ -27,7 +27,7 @@ def agregar_canciones():
     while agregar_cancion:
         #preguntar al usuario que cancion desea agregar
         nombre_playlist = playlist['nombre']
-        pregunta = f'Agrega una cancion para la playlist {nombre_playlist}: \r\n'
+        pregunta = f'Agrega una cancion para la playlist: {nombre_playlist}: \r\n'
         pregunta += 'escribe "X" para dejar de agregar canciones \r\n'
 
 
